@@ -1,4 +1,4 @@
-# Generated from /Users/Philo/Documents/PyCharm/MiniJava/MiniJava.g4 by ANTLR 4.5.1
+# Generated from /Users/MiniJava/MiniJava.g4 by ANTLR 4.5.1
 from antlr4 import *
 from io import StringIO
 
