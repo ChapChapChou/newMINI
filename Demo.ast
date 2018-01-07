@@ -1,0 +1,62 @@
+<goal>:
+    <main>:
+        <variable declaration>:  c
+            <type>:  Cal
+            <new>:  Cal
+        <variable declaration>:  index
+            <type>:  int
+            <constant>:  0
+        <variable declaration>:  result
+            <type>:  int
+            <constant>:  0
+        <while>:
+            <comparison>:  <
+                <variable>:  index
+                <expression>:  100
+            <statement sequence>:
+                <assignment>:
+                    <variable>:  result
+                    <method call>:
+                        <variable>:  c
+                        <method>:  add
+                        <parameters>:
+                            <constant>:  3
+                            <variable>:  result
+                <assignment>:
+                    <variable>:  index
+                    <binary operation>:  +
+                        <variable>:  index
+                        <constant>:  1
+                <if>:
+                    <comparison>:  ==
+                        <binary operation>:  %
+                            <variable>:  result
+                            <constant>:  2
+                        <constant>:  1
+                    <if body>:
+                        <assignment>:
+                            <variable>:  result
+                            <binary operation>:  *
+                                <variable>:  result
+                                <constant>:  2
+                    <else body>:
+                        <assignment>:
+                            <variable>:  result
+                            <binary operation>:  /
+                                <variable>:  result
+                                <constant>:  2
+        <print>:
+            <variable>:  result
+    <class declaration>:  Cal
+        <method declaration>:  add
+            <return type>:  int
+            <parameters>:
+                <parameter declaration>: a
+                    <type>:  int
+                <parameter declaration>: b
+                    <type>:  int
+            <method body>:
+                <return>:
+                    <binary operation>:  +
+                        <variable>:  a
+                        <variable>:  b
